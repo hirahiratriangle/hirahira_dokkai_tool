@@ -1,5 +1,5 @@
 ---
-name: bunken-dokkai-30
+name: hirahira_dokkai_tool
 description: OCR 済みの文献（本・雑誌の特集号・対談集・論文集）を、章（記事・対談）ごとに原文の字数を数え、その 30% の字数で構造化要約し、引用 3 文と概念の定義文を紙面画像で照合して章ごとのテキストファイルに出す、ユーザー専用の読解スキル。「（書名）を読解して」「いつものように読解」「いつものように要約」「GK と同じ読解」「30% 要約」「章ごとに要約して」など、文献の読解・要約を頼まれたら必ずこのスキルを使う。書き起こし（OCR）そのものは bunken-ocr-senyo の仕事で、このスキルはその後を受け持つ。
 ---
 
@@ -67,7 +67,7 @@ description: OCR 済みの文献（本・雑誌の特集号・対談集・論文
 ## 道具と置き場所
 
 ```
-~/.claude/skills/bunken-dokkai-30/
+~/.claude/skills/hirahira_dokkai_tool/
   scripts/count_hinagata.py   章ごとの字数を数える雛形。一冊ごとに写して書き換える
   scripts/show.py             count.py と同じ除外をかけてページを表示する
   scripts/sumcount.py         要約の字数と文長を数える

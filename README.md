@@ -13,11 +13,11 @@ OCR 済みの文献（本・雑誌の特集号・対談集）を、**章ごと�
 
 ## 入れ方
 
-スキルは `~/.claude/skills/bunken-dokkai-30/` に置かれている前提で書かれています。
+スキルは `~/.claude/skills/hirahira_dokkai_tool/` に置かれている前提で書かれています。
 リポジトリをその場所に直接 clone してください。
 
 ```bash
-git clone https://github.com/hirahiratriangle/hirahira_dokkai_tool ~/.claude/skills/bunken-dokkai-30
+git clone https://github.com/hirahiratriangle/hirahira_dokkai_tool ~/.claude/skills/hirahira_dokkai_tool
 ```
 
 ほかに必要なもの（紙面画像の取り出しに使います）:
